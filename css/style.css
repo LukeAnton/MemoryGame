@@ -1,0 +1,141 @@
+
+body {
+  background: url("../images/red.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  margin: 0;
+
+}
+
+header {
+  background: rgba(198, 80, 36, 0.5);
+  color: #ffffff;
+  padding: 30px 25px;
+
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 45px;
+  margin: 0;
+}
+
+nav {
+  background-color: rgba(0, 166, 179, 0.5);
+  padding: 20px 0;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+a {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  margin: 0 20px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+
+}
+
+a:hover {
+color: black;
+transition: .9s;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+main {
+
+  width: auto;
+  margin: 35px auto;
+}
+
+p {
+  font-family: "Droid Serif", serif;
+  line-height: 25px;
+  color: white;
+}
+
+img {
+  margin: 20px;
+  border-radius: 6px;
+  opacity: 0.6;
+  filter: invert(100%);
+}
+#alertMessage {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 25px 0 40px 0;
+}
+
+
+footer {
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: rgba(13, 44, 64, 0.8);
+  color: #ffffff;
+  letter-spacing: .08em8
+  font-weight: 500;
+  margin: 7px 7px;
+  clear: both;
+}
+#reset {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+  background: rgba(198, 80, 36, 0.5);
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#reset:hover {
+  background-color: rgba(0, 0, 0, 0.68);
+  color: rgb(158, 0, 0);
+  padding: 23px 43px;
+  transition: .5s;
+}
+
+.copyright {
+float: left;
+font-family: "Raleway", sans-serif;
+}
+
+.message {
+float: right;
+font-family: "Raleway", sans-serif;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name {
+  color: #f15b31;
+  font-weight: 700;
+}

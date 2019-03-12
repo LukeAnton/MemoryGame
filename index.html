@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <title>Memory Game</title>
+</head>
+
+<body>
+
+  <header class="container">
+    <h1><i class="fas fa-brain"></i> MEMORY GAME <i class="fas fa-brain"></i></h1>
+  </header>
+
+  <nav>
+    <a href="#">INSTRUCTIONS</a>
+    <a href="#">GAME</a>
+  </nav>
+
+  <h2>INSTRUCTIONS</h2>
+
+  <main>
+    <p>Concentration, also known as Match Match, Memory, Pelmanism,
+      Shinkei-suijaku, Pexeso or simply pairs, is a card game in
+      which all of the cards are laid face-down on a surface and
+      two cards are flipped face up over each turn.
+      The object of the game is to turn over pairs of matching cards
+    </p>
+
+    <div id="game-board" class="boardClearfix"></div>
+
+    <div id="alertMessage"></div>
+
+    <button id="reset" onclick="window.location.href = 'https://lukeanton.com/MemoryGame/';">
+      Start Over</button>
+
+    <!--
+    broken button
+  <button id="reset"
+  onclick="resetCards();">
+    Start Over</button>
+    -->
+
+  </main>
+  <footer class="clearfix">
+    <p class="copyright">Copyright 2019</p>
+    <p class="message">Created with &hearts; by <span class="name">GA</span></p>
+  </footer>
+</body>
+<script src="js/main.js"></script>
+
+</html>
