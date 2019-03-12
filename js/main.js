@@ -52,7 +52,7 @@ var flipCard = function() {
 var createBoard = function() {
   for (var i = 0; i < cards.length; i++) {
     var cardElement = document.createElement('img');
-    cardElement.setAttribute('src', 'images/back.png');
+    cardElement.setAttribute('src','images/back.png');
     cardElement.setAttribute('data-id', i);
     cardElement.addEventListener('click', flipCard);
     document.getElementById('game-board').appendChild(cardElement);
