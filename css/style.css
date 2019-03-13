@@ -16,7 +16,6 @@ header {
   background: rgba(198, 80, 36, 0.5);
   color: #ffffff;
   padding: 30px 25px;
-
 }
 
 h1 {
@@ -53,13 +52,12 @@ transition: .9s;
 
 h2 {
   font-family: "Raleway", sans-serif;
-  letter-spacing: 1px;
-  font-weight: 500;
+  letter-spacing: 5px;
+  font-weight: 900;
   font-size: 20px;
   color: white;
 }
 main {
-
   width: auto;
   margin: 35px auto;
 }
@@ -78,14 +76,50 @@ img {
 }
 #alertMessage {
   font-family: "Raleway", sans-serif;
-  color: white;
-  font-size: 50px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 30px;
   font-weight: 900;
   letter-spacing: 5px;
   text-transform: uppercase;
   padding: 25px 0 40px 0;
 }
 
+#score {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+#scoreTitle {
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+#finalScoreTitle{
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+#finalScore {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
 
 footer {
   text-transform: uppercase;
